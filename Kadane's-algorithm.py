@@ -1,7 +1,15 @@
 class Solution:
-    def maxSubArraySum(self, arr):
-        max_current = max_global = arr[0]
+    def maxSubarraySum(self, arr):
+       
+        max_sum = arr[0]
+        current_sum = arr[0]
+        
+      
         for i in range(1, len(arr)):
-            max_current = max(arr[i], max_current + arr[i])
-            max_global = max(max_global, max_current)
-        return max_global
+            
+            current_sum = max(arr[i], current_sum + arr[i])
+            
+           
+            max_sum = max(max_sum, current_sum)
+        
+        return max_sum
