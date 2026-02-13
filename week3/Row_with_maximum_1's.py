@@ -1,4 +1,4 @@
-class Solution10:
+class Solution:
     def rowWithMax1s(self, arr, n, m):
         max_row = -1
         max_count = 0
