@@ -6,4 +6,4 @@ class Solution:
         if n % 2 == 1:
             return arr[n // 2]
         else:
-            return (arr[n // 2] + arr[n // 2 - 1]) // 2
+            return (arr[n // 2] + arr[n // 2 - 1]) / 2
