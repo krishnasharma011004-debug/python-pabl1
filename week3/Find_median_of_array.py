@@ -1,5 +1,5 @@
 class Solution:
-    def find_median(self, arr):
+    def findMedian(self, arr):
         arr.sort()
         n = len(arr)
 
