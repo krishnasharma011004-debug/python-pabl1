@@ -1,4 +1,4 @@
-class Solution5:
+class Solution:
     def isPalindrome(self, arr):
         for num in arr:
             if str(num) != str(num)[::-1]:
